@@ -1,4 +1,5 @@
 ﻿using Bridal_Automation.Pages;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -40,7 +41,6 @@ namespace Bridal_Automation.Test
 
             // Navigate to Shopping cart page and verify product will be displayed
             Assert.True(cartPage.LblProduct(product).Displayed);
-            Dispose();
         }
     }
 }

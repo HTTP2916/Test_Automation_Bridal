@@ -10,7 +10,7 @@ using static Bridal_Automation_WebDriver.Browser;
 
 namespace Bridal_Automation.Test
 {
-    public class BaseTest
+    public class BaseTest: IDisposable
     {
         public Browser Browser;
         public BaseTest()

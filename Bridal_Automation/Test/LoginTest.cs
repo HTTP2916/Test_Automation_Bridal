@@ -12,7 +12,7 @@ namespace Bridal_Automation.Test
     public class LoginTest: BaseTest
     {
         readonly LoginPage loginPage;
-        public LoginTest()
+        public LoginTest():base()
         {
             loginPage = new LoginPage(Browser);
         }

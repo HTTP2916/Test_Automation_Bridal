@@ -1,4 +1,5 @@
 ﻿using Bridal_Automation.Pages;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,7 +10,7 @@ namespace Bridal_Automation.Test
     public class HomepageTest : BaseTest
     {
         readonly Homepage homepage;
-        public HomepageTest()
+        public HomepageTest(): base()
         {
             homepage = new Homepage(Browser);
         }
